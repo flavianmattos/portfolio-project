@@ -56,10 +56,10 @@ a:hover {
 }
 
 header {
+  height: 100px;
   text-align: center;
   background: url('images/new-jersey.jpg') no-repeat top center ;
   background-size: cover;
-  overflow: hidden;
   padding-top: 60px;
 }
 header {
@@ -77,6 +77,12 @@ header .profile-image:hover {
   transform: scale(1.2) rotateZ(10deg);
   border-color: red;
 
+}
+.card{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .6)
+}
+#name{
+  text-shadow: 1px 1px 3px red;
 }
 .tag {
   background-color: #efefef;
@@ -131,6 +137,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  font-weight: bold;
 }
 
 footer ul {
